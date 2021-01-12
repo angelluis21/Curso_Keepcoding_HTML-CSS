@@ -1,0 +1,39 @@
+* {
+    font-family: 'Cairo', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color:var(--light-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Monda', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.logo, .logo span {
+    font-family: 'Gugui', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: var(--primary-color);
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.xl {
+    font-size: 1.5rem;
+}
